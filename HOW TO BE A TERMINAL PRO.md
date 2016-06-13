@@ -19,3 +19,17 @@ In the SHELL
 15. open -r file.txt (reveal)
 16. open http:syhacked.aljazeera.com
 17. killall Finder
+18. touch anewfile.txt
+19. touch directory/anewfile.txt
+20. mkdir newdirectory
+21. cat anewfile.txt
+22. cp beans1 beans2
+23. cp -r adir seconddir
+24. rm santa
+25. ln -s beans beans2
+26. ln beans beans2
+27. mv afile adirectory
+28. mv afile adirectory/afilenew
+29. file*
+30. rmdir
+31. rm -r folder
