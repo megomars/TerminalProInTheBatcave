@@ -43,3 +43,6 @@ In the SHELL
 38. find . -print
 39. grep -ilr "hello" *
 40. -exec
+41. chmod u+w (chmod g+w) (chmod o+w) (chmod a+w)
+42. chmod 644 text.txt
+43. chmod u=rw,g=r,o=, text.txt
