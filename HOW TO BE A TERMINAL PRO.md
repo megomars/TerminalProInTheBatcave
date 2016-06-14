@@ -16,7 +16,7 @@ In the SHELL
 12. ctrl a and ctrl e (start and end of line)
 13. "file name" or file\ name 
 14. Drag file into terminal for path
-15. open -r file.txt (reveal)
+15. open -R file.txt (reveal)
 16. open http:syhacked.aljazeera.com
 17. killall Finder
 18. touch anewfile.txt
@@ -33,3 +33,13 @@ In the SHELL
 29. file*
 30. rmdir
 31. rm -r folder
+32. find . -name "*.txt"
+32. find . -type f
+33. find . -iname "beans"
+34. find . -size +2048 (1mb)
+35. find . -mtime -1 (-atime -ctime)
+36. find . -iname "*.txt" -or 
+37. find . -prune
+38. find . -print
+39. grep -ilr "hello" *
+40. -exec
