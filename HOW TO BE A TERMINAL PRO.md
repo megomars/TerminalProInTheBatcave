@@ -46,3 +46,15 @@ In the SHELL
 41. chmod u+w (chmod g+w) (chmod o+w) (chmod a+w)
 42. chmod 644 text.txt
 43. chmod u=rw,g=r,o=, text.txt
+44. vim (normal mode vs insert mode)
+45. vim (beginning gg) (shift curly brace) (^ or $)
+46. :syntax on :5
+47. insert mode (shift o or shift O) (shift s) (shift r) (u) (ctrl r) (dd - delete) (yy - copy
+48. MAKING TAR FILES
+	1. tar -zxvf nameoftar.tar.gz
+	2. cd nameoftar
+	3. ./configure
+	4. make
+	5. make install
+	6. nameoftar --version
+)
