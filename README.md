@@ -66,13 +66,12 @@ In the SHELL
 
 ### making tar
 51. MAKING TAR FILES
-	1. tar -zxvf nameoftar.tar.gz
-	2. cd nameoftar
-	3. ./configure
-	4. make
-	5. make install
-	6. nameoftar --version
-)
+	1. tar -zxvf nameoftar.tar.gz (unzip)
+	2. cd nameoftar (open)
+	3. ./configure (dot slash configure)
+	4. make (make the files)
+	5. make install (make install the files)
+	6. nameoftar --version (now check it worked)
 
 ### piping-redirecting-output
 52. echo "hello world" > afile.txt (append to a file >>)
