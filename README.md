@@ -75,6 +75,34 @@ In the SHELL
 )
 
 ### piping-redirecting-output
-52.
-53.
-53.
+52. echo "hello world" > afile.txt (append to a file >>)
+53. ls fakefile 2> log (save to a log)
+53. ls documents >> log  2>&1
+54. translate tr a e
+55. tr a e < afile.txt (replace all a's with e's in this file)
+56. PIPING - ls -a | grep "\." (only find hidden files and directories)
+
+### managing processes
+57. top (sample of processes on your mac)(exit with q)
+58. top -o cpu (order by CPU usage)
+59. ps -cvx (c- name, x- owned by user, v- other info)(process statuses)
+60. ps -cvx | grep "Google" (finds all Google processes)
+61. term 35157 (quits Google Chrome)
+62. kill -s KILL 35178 (force quits)
+
+### ssh keygens
+63. ssh-keygen -t rsa (creates id_rsa, id_rsa.pub, known hosts)
+64. scp id_rsa.pub js@10.0.0.201:~/.ssh/authorized_keys (securely copy to the remote server)
+65. login user2
+66. (dont' overwrite the pubkey) cat id_rsa.pub |ssh js@10.0.1.201 "cat >> ~/.ssh/authorized_keys"
+67. SSH host alias (cd .ssh, nano config, Host server, Hostname 10.1.1.1, User Haddad)
+
+### sftp scp curl
+68. scp file1.txt server:~/remote
+69. sftp server
+70. lpwd (locally print out my working directory)
+71. put file1.txt
+72. get random.txt (exit or quit)
+73. curl (supports many protocols)(scrapes web pages or get files)
+74. curl http://aljazeera.com > afile.html
+75. curl -Of http://aljazeera.com (fail silently)
