@@ -105,3 +105,14 @@ In the SHELL
 73. curl (supports many protocols)(scrapes web pages or get files)
 74. curl http://aljazeera.com > afile.html
 75. curl -Of http://aljazeera.com (fail silently)
+
+### bash scripting
+76. nano .bash_profile - function helloworld(){ echo "hello, $1"}
+77. SHELL SCRIPTS - nano newSite.sh (#!/bin/bash) (chmod +x newSite.sh)(./newSite.sh someexample)
+78. sudo cp /usr/local/bin (super user do)
+79. echo $PATH
+80. alias runthis="ssh js@10.0.1.201"
+
+
+
+
