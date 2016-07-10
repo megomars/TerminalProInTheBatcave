@@ -35,7 +35,7 @@ In the SHELL
 26. rm santa.txt (remove it) or rm -r santa (remove and remove recursive)
 27. rmdir (delete a directory) could also use rm -r (to delete a folder)
 28. ln -s beans1 beans2 (soft symbolic link to point to another)
-29. ln beans beans2 (hard shortcut link)
+29. ln beans1 beans2 (hard shortcut link)
 
 ### finding files and text in files
 30. find . -name "*.txt" (search current directory)
