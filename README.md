@@ -36,7 +36,7 @@ In the SHELL
 27. rmdir (delete a directory) could also use rm -r (to delete a folder)
 28. ln -s beans1 beans2 (soft symbolic link to point to another)
 29. ln beans1 beans2 (hard shortcut link)
-
+#### Revision up to here 28 Feb 2018
 ### finding files and text in files
 30. find . -name "*.txt" (search current directory)
 31. find . -type f (find all the files)
