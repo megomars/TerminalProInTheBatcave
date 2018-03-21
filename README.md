@@ -1,7 +1,7 @@
 HOW TO BE A TERMINAL PRO - 100 COMMANDS TO KNOW
 [https://code.tutsplus.com/courses/how-to-be-a-terminal-pro](https://code.tutsplus.com/courses/how-to-be-a-terminal-pro) and [https://code.tutsplus.com/courses/advanced-command-line-techniques](https://code.tutsplus.com/courses/advanced-command-line-techniques)
 
-In the SHELL
+In the SHELL:
 ### hello terminal
 1. echo "hello world" or with with options echo -n "hello world"
 2. ctrl a and ctrl e (start and end of line)
